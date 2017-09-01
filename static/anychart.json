@@ -1,0 +1,58 @@
+{
+  "chart": {
+    "enabled": true,
+    "title": {
+      "enabled": true,
+      "text": "Bar Chart With A Default View"
+    },
+    "credits": {
+      "text": "AnyChart",
+      "url": "http://www.anychart.com/?utm_source=registered",
+      "alt": "AnyChart - JavaScript Charts designed to be embedded and integrated",
+      "imgAlt": "AnyChart - JavaScript Charts",
+      "logoSrc": "https://static.anychart.com/logo.png",
+      "enabled": false
+    },
+    "xScale": 0,
+    "yScale": 1,
+    "series": [
+      {
+        "enabled": true,
+        "seriesType": "bar",
+        "data": [
+          {
+            "x": "Department Stores1",
+            "value": 737166
+          },
+          {
+            "x": "Discount Stores",
+            "value": 537166
+          },
+          {
+            "x": "Men's/Women's Specialty Stores",
+            "value": 188662
+          },
+          {
+            "x": "Juvenile Specialty Stores",
+            "value": 178662
+          },
+          {
+            "x": "All other outlets",
+            "value": 89000
+          }
+        ],
+        "xScale": 0,
+        "yScale": 1
+      }
+    ],
+    "scales": [
+      {
+        "names": []
+      },
+      {
+        "minimum": 0
+      }
+    ],
+    "type": "bar"
+  }
+}
